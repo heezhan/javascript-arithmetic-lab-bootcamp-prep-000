@@ -14,11 +14,11 @@ function divide(a, b) {
   return (a / b)
 }
 
-/* 
-inc(n)
+function inc(n) {
+  return (n+1)
+}
 dec (n)
-*/
 
 function makeInt(n) {
-  parseInt('n', 10)
+  return parseInt('n', 10)
 }
